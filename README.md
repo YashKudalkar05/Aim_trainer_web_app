@@ -1,8 +1,13 @@
 # AimTrainer
 
-A browser-based FPS aim training app integrated with Discord. Users invoke a Discord bot command to receive a unique session link, complete aim exercises in the browser, and view their stats back in Discord — no account creation required.
+A browser-based FPS aim training app integrated with Discord. Users invoke a Discord bot command to receive a unique session link, complete aim exercises in the browser, and view their stats back in Discord, no account creation required.
 
 ---
+## Web app Preview
+
+![Landing Page](assets/landing_page.png)
+![Main Menu](assets/menu.png)
+
 
 ## Features
 
@@ -141,7 +146,3 @@ Tokens expire after 30 minutes.
 | `/mystats` | Display your aim training stats in Discord |
 
 ---
-
-## License
-
-MIT

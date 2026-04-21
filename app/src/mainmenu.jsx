@@ -117,26 +117,6 @@ export default function MainMenu({ onStart }) {
       </div>
     </div>
 
-      {/* Volume Slider */}
-      <div style={{ marginBottom: "24px", textAlign: "left" }}>
-        <label style={{ fontSize: "13px", color: "#888" }}>Volume: {volume}</label>
-        <input
-          type="range"
-          min="0"
-          max="100"
-          value={volume}
-          onChange={e => setVolume(e.target.value)}
-          style={{
-            width: "100%",
-            marginTop: "6px",
-            height: "6px",
-            borderRadius: "3px",
-            background: "rgba(255,255,255,0.1)",
-            appearance: "none",
-          }}
-        />
-      </div>
-
       {/* Exercises */}
       {Object.entries(EXERCISES).map(([category, exercises]) => (
         <div key={category} style={{ marginBottom: "20px", textAlign: "left" }}>
